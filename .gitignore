@@ -1,0 +1,39 @@
+# ========================
+# Environment files
+# ========================
+# Ignore all .env files (backend secrets)
+*.env
+
+# ========================
+# Node dependencies
+# ========================
+node_modules/
+
+# ========================
+# Vite / React build output
+# ========================
+client/dist/
+client/build/  # in case you ever change build folder
+
+# ========================
+# Logs
+# ========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDE / Editor files (optional)
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
